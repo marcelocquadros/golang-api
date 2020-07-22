@@ -1,2 +1,2 @@
 # golang-api
-A basic example of a REST API using go with fiber and gorm and SQLite
+A basic example of a REST API using Go with fiber, gorm and SQLite
