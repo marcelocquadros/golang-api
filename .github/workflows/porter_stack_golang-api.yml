@@ -18,12 +18,12 @@ jobs:
       timeout-minutes: 30
       run: exec porter apply
       env:
-        PORTER_CLUSTER: "4271"
-        PORTER_DEPLOYMENT_TARGET_ID: a57b3ebf-4fac-47c4-90cf-d51a32aa2152
+        PORTER_CLUSTER: "4274"
+        PORTER_DEPLOYMENT_TARGET_ID: fa74d1a6-24cb-4120-9f9e-f66ae0efb945
         PORTER_HOST: https://dashboard.porter.run
         PORTER_PR_NUMBER: ${{ github.event.number }}
-        PORTER_PROJECT: "13652"
+        PORTER_PROJECT: "13654"
         PORTER_REPO_NAME: ${{ github.event.repository.name }}
         PORTER_STACK_NAME: golang-api
         PORTER_TAG: ${{ steps.vars.outputs.sha_short }}
-        PORTER_TOKEN: ${{ secrets.PORTER_STACK_13652_4271 }}
+        PORTER_TOKEN: ${{ secrets.PORTER_STACK_13654_4274 }}
